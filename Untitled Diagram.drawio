@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T21:01:41.210Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9iwR3FBf85_824WrFoAX" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T21:05:04.380Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lPTFWPEMKu_JrXTeus8j" version="20.8.16" type="github">
   <diagram name="Page-1" id="e46ZSgUiM06h24h3hdQA">
     <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hQTUHUbLcIf_wo7CLraZ-8" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="170" width="70" height="50" as="geometry" />
+          <mxGeometry x="230" y="160" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hQTUHUbLcIf_wo7CLraZ-9" value="Boundary Object" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="220" width="100" height="80" as="geometry" />
+          <mxGeometry x="210" y="230" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hQTUHUbLcIf_wo7CLraZ-12" value="Composite State" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="100" width="160" height="60" as="geometry" />
@@ -24,29 +24,33 @@
         <mxCell id="hQTUHUbLcIf_wo7CLraZ-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="180" y="360" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQTUHUbLcIf_wo7CLraZ-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="490" y="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hQTUHUbLcIf_wo7CLraZ-18" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" target="hQTUHUbLcIf_wo7CLraZ-17" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="280" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="490" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hQTUHUbLcIf_wo7CLraZ-19" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="hQTUHUbLcIf_wo7CLraZ-17" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="337" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hQTUHUbLcIf_wo7CLraZ-20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="410" y="190" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQTUHUbLcIf_wo7CLraZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hQTUHUbLcIf_wo7CLraZ-20" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="280" as="targetPoint" />
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-23" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-24" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-25" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br/&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-26" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hQTUHUbLcIf_wo7CLraZ-25">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-27" value="&amp;laquo;Annotation&amp;raquo;&lt;br/&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-28" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hQTUHUbLcIf_wo7CLraZ-27">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQTUHUbLcIf_wo7CLraZ-29" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Tablename&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
